@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy</title>
+<style>
+  body {
+    font-family: -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    max-width: 740px;
+    margin: 0 auto;
+    padding: 32px 20px 80px;
+    line-height: 1.6;
+    color: #222;
+  }
+  h1 { font-size: 28px; margin-bottom: 4px; }
+  h2 { font-size: 19px; margin-top: 36px; border-bottom: 1px solid #eee; padding-bottom: 6px; }
+  .updated { color: #777; font-size: 14px; margin-bottom: 32px; }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  table { width: 100%; border-collapse: collapse; margin: 16px 0; }
+  th, td { text-align: left; padding: 8px 10px; border: 1px solid #e0e0e0; font-size: 14px; }
+  th { background: #f7f7f7; }
+  a { color: #1a5bb8; }
+  .contact { background: #f7f7f7; padding: 16px; border-radius: 8px; margin-top: 8px; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p class="updated">Last updated: June 24, 2026</p>
+
+<p>This Privacy Policy explains how <strong>[APP NAME]</strong> ("the App," "we," "us") collects, uses, stores, and protects your information. By creating an account or using the App, you agree to the practices described below.</p>
+
+<h2>1. Information We Collect</h2>
+
+<table>
+  <tr><th>Category</th><th>Examples</th><th>Source</th></tr>
+  <tr>
+    <td>Account &amp; identity</td>
+    <td>Name, email address, profile photo</td>
+    <td>Google Sign-In (Firebase Authentication)</td>
+  </tr>
+  <tr>
+    <td>Profile details</td>
+    <td>Country, age, job type, dietary restrictions, budget range, spicy tolerance, whether you work out</td>
+    <td>Entered by you during onboarding/profile setup</td>
+  </tr>
+  <tr>
+    <td>Content you post</td>
+    <td>Food photos, captions, optional Khmer-script dish names, comments, likes</td>
+    <td>Entered/uploaded by you</td>
+  </tr>
+  <tr>
+    <td>Usage data</td>
+    <td>Posts liked/commented on, suggestion requests, app interaction events</td>
+    <td>Generated automatically as you use the App</td>
+  </tr>
+</table>
+
+<h2>2. How We Use Your Information</h2>
+<ul>
+  <li><strong>To operate your account</strong> — authenticate you via Google Sign-In and keep your profile and posts associated with your account.</li>
+  <li><strong>To power the social feed</strong> — display your posts, photos, captions, likes, and comments to other users of the App.</li>
+  <li><strong>To generate food suggestions</strong> — your profile attributes (country, diet restrictions, budget, spicy tolerance, etc.) are sent to a third-party AI provider (Anthropic's Claude API) to generate personalized food/dish suggestions. No content you post publicly (photos, captions) is sent for this purpose — only the profile fields needed to personalize suggestions.</li>
+  <li><strong>To maintain and improve the App</strong> — diagnose bugs, understand feature usage, and improve reliability.</li>
+</ul>
+
+<h2>3. Third-Party Services We Use</h2>
+<p>We rely on the following service providers to operate the App. Each processes a subset of your data as described:</p>
+<ul>
+  <li><strong>Firebase Authentication (Google)</strong> — handles sign-in via your Google account. Firebase receives your basic Google account identity (name, email, profile photo) to authenticate you.</li>
+  <li><strong>Supabase</strong> — our database and file storage provider. Your profile data, posts, comments, likes, and uploaded photos are stored on Supabase's infrastructure.</li>
+  <li><strong>Anthropic (Claude API)</strong> — processes selected profile fields (country, diet restrictions, budget, spicy tolerance, age range) to generate personalized food suggestions. Anthropic does not receive your name, email, photos, or posts.</li>
+</ul>
+<p>Each of these providers maintains its own privacy and security practices, independent of this App.</p>
+
+<h2>4. Public Content</h2>
+<p>This App is a social platform. Photos, captions, dish names, and comments you post are <strong>visible to other users</strong> of the App by design. Please do not post anything you wish to keep private.</p>
+
+<h2>5. Data Storage &amp; Security</h2>
+<p>Your data is stored using Supabase (database and file storage) and Firebase (authentication). We take reasonable measures to protect your information, but no method of electronic storage is 100% secure, and we cannot guarantee absolute security.</p>
+
+<h2>6. Data Retention</h2>
+<p>We retain your account data and posts for as long as your account remains active. If you delete your account, your profile data and posts will be removed from our active systems within a reasonable period, except where retention is required for legal or security purposes.</p>
+
+<h2>7. Your Choices &amp; Rights</h2>
+<ul>
+  <li><strong>Access &amp; correction</strong> — you can view and edit your profile information directly within the App.</li>
+  <li><strong>Deletion</strong> — you can request deletion of your account and associated data by contacting us at the email below.</li>
+  <li><strong>Sign-out</strong> — signing out clears your session from the App and your Google account.</li>
+</ul>
+
+<h2>8. Children's Privacy</h2>
+<p>This App is not directed at children under 13 (or the minimum age required by your local law). We do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us so we can remove it.</p>
+
+<h2>9. Changes to This Policy</h2>
+<p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated "Last updated" date. Continued use of the App after changes are posted constitutes acceptance of the revised policy.</p>
+
+<h2>10. Contact Us</h2>
+<div class="contact">
+  <p>If you have questions about this Privacy Policy or wish to request access to or deletion of your data, contact us at:</p>
+  <p><strong>Email:</strong> [YOUR EMAIL ADDRESS]</p>
+</div>
+
+</body>
+</html>
